@@ -8,4 +8,4 @@
 
 - 💞️ I’m looking to collaborate on innovative projects that challenge the status quo.
 
-- 📫 How to reach me? Dive into the digital universe with a message to mukulmj@gmail.com 📧
+- 📫 How to reach me? Dive into the digital universe with a message to mukuljoshi50@gmail.com 📧
