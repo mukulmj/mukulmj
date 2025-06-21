@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mukul Joshi - DevOps Engineer with expertise in CI/CD, cloud infrastructure, and automation.">
+    <title>DevOps Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://medium.com/@mukulmj/devops-the-invisible-force-behind-seamless-tech-8ec1f361698e">
+    <link rel="stylesheet" href="https://medium.com/@mukulmj/how-i-patched-a-docker-image-without-breaking-its-original-behavior-c086f8a25d18">
+</head>
+<body>
+    <div class="theme-toggle-container">
+        <button id="themeToggleBtn" onclick="toggleDarkMode()">🌓 Mode</button>
+    </div>
+    <div class="animation-container">
+        <div class="sun">
+            <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+        </div>
+        <div class="moon">
+            <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+        </div>
+        <div class="stars"></div>
+    </div>
+    <div class="container">
+        <div class="intro-flex">
+            <div class="intro-section">
+                <header>
+                    <h1>
+                        I'm Mukul, an<br>
+                        DevOps Engineer.<br>
+                        Learn more about on
+                        <a href="https://medium.com/@mukulmj/devops-the-invisible-force-behind-seamless-tech-8ec1f361698e" target="_blank">DevOps</a>.
+                    </h1>
+                    <a href="resume.pdf" download>
+                        <button id="downloadBtn" class="btn">Download My Resume</button>
+                    </a>
+                </header>
+                <section class="project-links">
+                    <h2>My Projects</h2>
+                    <ul>
+                        <li>
+                            <a href="https://mukulmj.github.io/Mechanical_Strip_Clock/" target="_blank">Mechanical Strip Clock</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="blog-previews">
+                    <h2>My Blogs</h2>
+                    <ul id="blogList">
+                        <!-- Blog previews will be dynamically added here -->
+                    </ul>
+                </section>
+                <section class="social-icons">
+                    <a href="https://github.com/mukulmj" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mukulmj" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://twitter.com/mukulmj7" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </section>
+            </div>
+            <div class="profile-image">
+                <img src="assets/images/profile-image.svg" alt="Profile Image">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.2"></script>
+</body>
+</html>
